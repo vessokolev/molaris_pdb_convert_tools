@@ -52,7 +52,7 @@ When finishing, the script returns a value to the invoking shell. If the return 
 
 _4. Converting the PDB into the standard PDB format._
 
-To convert a PDB file from the old to the standard format of ATOM and HETATM records, invoke the script ``convert_molaris_old_pdb_to_new_pdb.py`` by giving as parameters the name of the PDB file that need to be converted and the output PDB file name. For example:
+To convert a PDB file from the old to the standard format of ATOM and HETATM records, invoke the script ``convert_molaris_old_pdb_to_new_pdb.py`` by giving as parameters the name of the PDB file that needs to be converted and the output PDB file name. For example:
 
 ```
 convert_molaris_old_pdb_to_new_pdb.py input.pdb output.pdb
