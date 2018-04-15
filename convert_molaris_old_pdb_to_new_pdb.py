@@ -10,6 +10,16 @@
 #
 import sys
 #
+# Check the Python version.
+#
+version=sys.version_info
+#
+if version.major<3 or (version.major==3 and version.minor<4):
+   #
+   print('\nRunning this script requires Python 3.4 or higher.\n')
+   #
+   sys.exit(1)
+   #
 if len(sys.argv)!=3:
    #
    print('\nWrong number of input parameters!\n')
